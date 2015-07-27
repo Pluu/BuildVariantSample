@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<application>
+		<activity
+			android:name="com.pluu.buildvariantsample.cs2.StepMainActivity"
+			android:label="@string/title_activity_step_main">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="com.pluu.buildvariantsample.cs2.SAMPLE_CODE"/>
+			</intent-filter>
+		</activity>
+	</application>
+
+</manifest>

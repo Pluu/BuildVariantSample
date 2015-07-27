@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<application>
+		<activity
+			android:name="com.pluu.buildvariantsample.cs1.StepCSMainActivity"
+			android:label="@string/title_activity_step_csmain">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="com.pluu.buildvariantsample.cs1.SAMPLE_CODE"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="${applicationId}.CS1OnlyActivity"
+			android:label="@string/title_activity_cs1_only">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="${applicationId}.SAMPLE_CODE"/>
+			</intent-filter>
+		</activity>
+	</application>
+
+</manifest>

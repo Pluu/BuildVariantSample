@@ -1,0 +1,5 @@
+<resources>
+	<string name="title_activity_step_main">StepMainActivity</string>
+	<string name="app_name">CS2 BuildVariant</string>
+
+</resources>

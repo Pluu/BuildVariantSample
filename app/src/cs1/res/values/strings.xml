@@ -1,0 +1,7 @@
+<resources>
+	<string name="title_activity_step_csmain">StepCSMainActivity</string>
+	<string name="app_name">CS1 BuildVariant</string>
+	<string name="title_activity_cs1_only">CS1OnlyActivity</string>
+
+
+</resources>
